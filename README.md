@@ -7,6 +7,7 @@ Clozedo is a full-stack application made for sellers on Poshmark to enhance thei
 - [System Design](#system-design)
 - [Features](#features)
 
+
 ## [System Design](#system-design)
 
 ### Overview
@@ -14,7 +15,7 @@ Clozedo is a full-stack application made for sellers on Poshmark to enhance thei
 
 
 ### Client (React.js)
-This renders the user interface and handles user interactions. Tailwind CSS is utilized for styling, and Chart.js is used for creating visualizations of the user's sales data. The video below shows the user dashboard.
+This renders the user interface and handles user interactions. Tailwind CSS is utilized for styling, and Chart.js is used for creating visualizations of the user's sales data.
 
 
 ### API Server (Node.js with Express.js)
@@ -37,13 +38,24 @@ When setting up Clozedo for the first time, the chrome extension establishes you
 ### Sales Analytics
 In the Clozedo dashboard is a "Dashboard" section. Here, you will find broad statistics on your closet data, like active listings and total sales. There are also a few high level graphs. Using the settings icon in the top right, you can filter the data by time or brand. In the "Analytics" section, you will find more advanced and specific statistics and visualizations. Here, you can also filter by time or brand. On both pages, you will find an "Update Data" button where you can update your data to include your recent sales.
 
+![](main/public/dashboard.png)
+
+
 
 ### Automated Sharing
 On Poshmark, you can share your listings to show them at the top of a search when customers are searching for an item. Clozedo provides automatic sharing. In the "Refresher" tab, you will see a "Sharer" section which provides three ways to share your closet's items. The first setting is scheduled sharing. Here, you can specify times for your items to be shared every day. The second setting is continuous sharing. This will share your closet on a set interval. The third setting will share your items one time.
 
+![](main/public/scheduled_sharer.png)
+
+
+
 
 ### Automated Offering
 This feature is located in the "Refresher" tab. When enabled, Clozedo will automatically send Poshmark users who like your listings a discount offer. You can specify minimum prices and how big of a discount you want to send.
+
+![](main/public/auto_offer.png)
+
+
 
 
 ### Activity Board

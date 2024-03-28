@@ -6,7 +6,6 @@ Clozedo is a full-stack application made for sellers on Poshmark to enhance thei
 
 - [System Design](#system-design)
 - [Features](#features)
-- [Installation](#installation)
 
 ## [System Design](#system-design)
 
@@ -50,5 +49,3 @@ This feature is located in the "Refresher" tab. When enabled, Clozedo will autom
 ### Activity Board
 This feature is located in the "Refresher" tab. Here, you will see activity updates. The activity board will update when your items are being refreshed, offers are sent out, or when your sales data is being updated.
 
-
-## [Installation](#installation)
